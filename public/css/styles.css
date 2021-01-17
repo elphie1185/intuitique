@@ -2,12 +2,20 @@
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: #eeeeee;
+  background-image: url("https://www.transparenttextures.com/patterns/light-wool.png");
+  text-align: center;
 }
 
-/* Navbar  */
+p {
+  font-size: 1.8rem;
+}
+
+
+/****************       NavBar      ****************/
 .container-fluid {
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding: 0;
+    margin: 0; 
+    width: 100%; 
 }
 
 .navbar {
@@ -15,7 +23,6 @@ body {
     padding-bottom: 15px;
     border: 0;
     border-radius: 0;
-    margin-bottom: 0;
     font-size: 12px;
     letter-spacing: 3px;
     background-color: #222831;
@@ -32,15 +39,49 @@ body {
 }
 
 
+/****************     Home page     ****************/
 
-/* Footer */
+/* headings */
+
+.top-heading {
+  font-family: 'Charm', cursive;
+  font-size: 5rem;
+  padding-bottom: 20px;
+}
+
+.section-heading {
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 20px 70px;
+}
+
+/* sections */
+.dark-section {
+  background-color: #393e46;
+  color: #eeeeee;
+  text-align: left;
+}
+
+.light-section {
+  background-color: #eeeeee;
+  color: #393e46;
+  text-align: left;
+}
+
+.expertise-img {
+  width: 15%;
+}
+
+
+/****************       Footer      ****************/
 
 .footer-padding {
 	padding-bottom: 60px;
 }
 
 .footer {
-	position: absolute;
+	position: relative;
 	text-align: center;
 	bottom: 0;
 	width: 100%;
@@ -49,7 +90,8 @@ body {
 }
 
 .footer p {
-	margin-top: 25px;
+  padding-top: 20px;
+	margin-top: 10px;
 	font-size: 12px;
   color: #eeeeee;
 }
