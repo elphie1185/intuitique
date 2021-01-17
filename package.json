@@ -1,0 +1,27 @@
+{
+  "name": "intuitique_website",
+  "version": "1.0.0",
+  "description": "set up of the website for intuitique",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "https": "^1.0.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elphie1185/intuitique.git"
+  },
+  "author": "Delphine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elphie1185/intuitique/issues"
+  },
+  "homepage": "https://github.com/elphie1185/intuitique#readme"
+}
