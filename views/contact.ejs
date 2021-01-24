@@ -1,4 +1,23 @@
 <%- include("partials/header") -%>
 
+<section class="title-section">
+  <div class="container-fluid">
+    <div class="row">
+
+        <form class="form-signin" method="Post" action="/contact">
+          <img class="mb-4" src="/images/logo.png" alt="" width="72" height="57">
+          <h1 class="h3 mb-3 fw-normal">Signup to our Newsletter</h1>
+
+          <input name="fName" type="text" class="form-control topInput" placeholder="First Name" required autofocus>
+          <input name="lName" type="text" class="form-control middleInput" placeholder="Last Name" required>
+          <input name="email" type="email" class="form-control bottomInput" placeholder="Email" required>
+
+          <button class="w-100 btn btn-lg btn-primary" type="submit">Sign Me Up</button>
+          <p class="mt-5 mb-3 text-muted logo">intuitique</p>
+        </form>
+
+    </div>
+  </div>
+</section>
 
 <%- include("partials/footer") -%>

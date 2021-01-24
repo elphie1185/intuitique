@@ -13,8 +13,8 @@ p {
 .container-fluid {
   padding-left: 0;
   padding-right: 0;
-  margin: 0; 
-  width: 100%; 
+  margin: 0;
+  width: 100%;
 }
 
 /****************       NavBar      ****************/
@@ -38,6 +38,9 @@ p {
   background-color: #eeeeee;
 }
 
+.logo {
+  font-family: 'Baloo 2', cursive;
+}
 
 /****************     Home page     ****************/
 /* headings */
@@ -81,17 +84,63 @@ p {
 }
 
 .feature-paragraph, .feature-title {
-  padding-left: 300px; 
-  margin-right: 50px; 
+  padding-left: 300px;
+  margin-right: 50px;
   position: relative;
 }
 
 .feature-paragraph {
-  margin-bottom: 50px; 
+  margin-bottom: 50px;
 }
 
 .expertise {
   margin-bottom: 50px;
+}
+
+
+/****************       Contact Us      ****************/
+
+/* Newsletter Form */
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+
+.form-signin .topInput {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin .middleInput {
+  border-radius: 0;
+  margin-bottom: -1px;
+}
+
+.form-signin .bottomInput {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.form-signin .w-100 {
+  background-color: #222831;
+  border-color: #222831;
 }
 
 /****************       Footer      ****************/
