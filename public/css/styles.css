@@ -99,6 +99,9 @@ p {
 
 
 /****************       Contact Us      ****************/
+.contact-me {
+  padding: 15px 10px;
+}
 
 /* Newsletter Form */
 .form-signin {
@@ -141,6 +144,22 @@ p {
 .form-signin .w-100 {
   background-color: #222831;
   border-color: #222831;
+}
+
+.contact-me p {
+  margin-right: 150px;
+  margin-left: 150px;
+  margin-bottom: 10px;
+  align-content: center;
+}
+
+.contact-me .btn-primary {
+    background-color: #222831;
+    border-color: #222831;
+}
+
+.text-muted {
+  margin-top: 15px; 
 }
 
 /****************       Footer      ****************/
