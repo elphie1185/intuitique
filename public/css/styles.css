@@ -147,8 +147,8 @@ p {
 }
 
 .contact-me p {
-  margin-right: 150px;
-  margin-left: 150px;
+  margin-right: 300px;
+  margin-left: 300px;
   margin-bottom: 10px;
   align-content: center;
 }
@@ -159,7 +159,7 @@ p {
 }
 
 .text-muted {
-  margin-top: 15px; 
+  margin-top: 15px;
 }
 
 /****************       Footer      ****************/
